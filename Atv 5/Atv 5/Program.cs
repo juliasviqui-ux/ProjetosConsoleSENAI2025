@@ -1,0 +1,14 @@
+﻿Console.WriteLine("Digite o número total de eleitores: ");
+int TotalEleitores = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite o número de votos brancos: ");
+int VotosBrancos = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite o número de votos válidos: ");
+int VotosVálidos = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Digite o número de votos Nulos: ");
+int VotosNulos = Convert.ToInt32(Console.ReadLine());
+double percBrancos = (VotosBrancos * 100) / TotalEleitores;
+double PercNulos = (VotosNulos * 100) / TotalEleitores;
+double PercValidos = (VotosVálidos * 100) / TotalEleitores;
+Console.WriteLine("\nPercentual de votos brancos: " + percBrancos.ToString("F2") + "%");
+Console.WriteLine("Percentual de votos nulos: " + PercNulos.ToString("F2") + "%");
+Console.WriteLine("Percentual de votos válidos: " + PercValidos.ToString("F2") + "%");
