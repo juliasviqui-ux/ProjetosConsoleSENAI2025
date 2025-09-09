@@ -12,3 +12,4 @@ double PercValidos = (VotosVálidos * 100) / TotalEleitores;
 Console.WriteLine("\nPercentual de votos brancos: " + percBrancos.ToString("F2") + "%");
 Console.WriteLine("Percentual de votos nulos: " + PercNulos.ToString("F2") + "%");
 Console.WriteLine("Percentual de votos válidos: " + PercValidos.ToString("F2") + "%");
+//fim
